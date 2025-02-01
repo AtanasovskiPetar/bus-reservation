@@ -1,0 +1,39 @@
+// Custom theme variables for a light red theme
+$primary: #ff4d4d; // Light red as the primary color
+$secondary: #ffe6e6; // Light red for secondary elements
+$danger: #ff3333; // Red for danger
+$success: #ff9999; // Light red for success
+$info: #ff6666; // Light red for informational messages
+$warning: #ffcccb; // Light red for warnings
+$light: #ffffff; // White for the light theme background
+$dark: #800000; // Darker red for text
+
+// Typography colors
+$body-color: $dark; // Use dark red for body text
+$body-bg: $light; // Light background color for the entire body
+
+// Border colors
+$border-color: $secondary; // Subtle red for borders
+
+// Link colors
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Button colors
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+$btn-primary-color: $light;
+
+// Navbar colors
+$navbar-light-color: $dark;
+$navbar-light-bg: $light;
+
+// Import Bootstrap with the custom variables
+@import "~bootstrap/scss/bootstrap";
+
+// Include other custom SCSS files if needed
+// @import "./default";
+// @import "./inc/navbar";
+// @import "./pages/home";
+// @import "./pages/auth";
+// @import "./inc/account-layout";
