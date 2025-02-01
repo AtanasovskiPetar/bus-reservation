@@ -2,6 +2,8 @@
 
 The **Bus Reservation System** is a web-based application built with Laravel 11 that allows users to book bus tickets for scheduled trips. Admins can manage buses, schedules, and reservations. Users can view available buses at specific timestamps and reserve tickets accordingly.
 
+![image](https://github.com/user-attachments/assets/4f5a68d8-87ef-4045-a315-075b3a4bd44f)
+
 ---
 
 ## Table of Contents
